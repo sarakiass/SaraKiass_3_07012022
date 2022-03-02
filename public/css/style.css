@@ -314,7 +314,6 @@ img {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  padding: auto;
 }
 
 @media only screen and (max-width: 767px) {
@@ -673,7 +672,6 @@ img {
     animation-iteration-count: 1;
     opacity: 0;
     margin: auto;
-    padding: auto;
   }
 
   @keyframes fadein {

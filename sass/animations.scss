@@ -1,0 +1,93 @@
+/*afficher progressivement*/
+.elements {
+    background-color: white;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 4px;
+    font-size: small;
+    animation: fadein 0.5s forwards;
+    animation-iteration-count: 1;
+    opacity: 0;
+    margin: auto;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@for $i from 1 through 9 {
+    .elements {
+        // :nth-child(1-9)
+        &:nth-child(#{$i}) {
+            // Delay the animation. Delay increases as items loop.
+            animation-delay: $i * (0.5s);
+        }
+    }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@for $i from 1 through 9 {
+    .elements {
+        // :nth-child(1-9)
+        &:nth-child(#{$i}) {
+            // Delay the animation. Delay increases as items loop.
+            animation-delay: $i * (0.5s);
+        }
+    }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@for $i from 1 through 9 {
+    .elements {
+        // :nth-child(1-9)
+        &:nth-child(#{$i}) {
+            // Delay the animation. Delay increases as items loop.
+            animation-delay: $i * (0.5s);
+        }
+    }
+}
