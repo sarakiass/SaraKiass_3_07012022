@@ -104,6 +104,7 @@ img {
 }
 
 .card-badge {
+  font-family: "Roboto", sans-serif;
   background-color: #99e2d0;
   color: #1b6150;
   padding: 0.5rem;
@@ -528,7 +529,7 @@ img {
     position: relative;
     font-size: medium;
     top: 16px;
-    left: 13px;
+    left: 17px;
   }
 
   .premierb i {

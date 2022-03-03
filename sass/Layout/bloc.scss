@@ -38,6 +38,7 @@ img {
 }
 
 .card-badge {
+	@include policetexte;
 	background-color: #99e2d0;
 	color: #1b6150;
 	padding: 0.5rem;
@@ -46,6 +47,7 @@ img {
 	top: 1rem;
 	right: 0.75rem;
 	font-weight: bold;
+	
 }
 
 .card-footer {
