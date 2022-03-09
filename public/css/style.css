@@ -529,7 +529,7 @@ img {
     position: relative;
     font-size: medium;
     top: 16px;
-    left: 17px;
+    left: 10px;
   }
 
   .premierb i {
@@ -725,6 +725,21 @@ img {
 
   .elements:nth-child(9) {
     animation-delay: 4.5s;
+  }
+}
+@media (min-width: 414px) and (max-width: 414px) {
+  .badge {
+    padding: 3px 3px 3px;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    text-align: center;
+    background: #9356dc;
+    color: #fefefe;
+    position: relative;
+    font-size: medium;
+    top: 16px;
+    left: 34px;
   }
 }
 /*Pour le Desktop*/
